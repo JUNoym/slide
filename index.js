@@ -122,14 +122,3 @@ function click4() {
     count = 0;
 }
 
-// 自動スライド
-const count = 0;
-
-setInterval(() => {
-    if (count > 4) {
-        count = 0;
-        nextClick();
-    }
-    count++;
-    console.log(count);
-}, 1000);
