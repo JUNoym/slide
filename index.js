@@ -1,10 +1,10 @@
-var slide = document.getElementById('slider');
-var prev = document.getElementById('prev');
-var next = document.getElementById('next');
-var list1 = document.getElementById('list1');
-var list2 = document.getElementById('list2');
-var list3 = document.getElementById('list3');
-var list4 = document.getElementById('list4');
+const slide = document.getElementById('slider');
+const prev = document.getElementById('prev');
+const next = document.getElementById('next');
+const list1 = document.getElementById('list1');
+const list2 = document.getElementById('list2');
+const list3 = document.getElementById('list3');
+const list4 = document.getElementById('list4');
 
 // クリックイベント
 
@@ -123,7 +123,7 @@ function click4() {
 }
 
 // 自動スライド
-var count = 0;
+const count = 0;
 
 setInterval(() => {
     if (count > 4) {
